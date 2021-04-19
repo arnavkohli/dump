@@ -1,10 +1,18 @@
 ## Git Cheatsheet
 
+
+# Get current branch / Get branch and most recent commit
+git branch / git show-branch 
+
+# Clear cache
+git rm -r --cached .
+
 # Check history
 git log --format=fuller
 
 # Change Author & Committer
-git filter-branch -f --env-filter "GIT_AUTHOR_NAME=''; GIT_AUTHOR_EMAIL=''; GIT_COMMITTER_NAME=''; GIT_COMMITTER_EMAIL='';
+git filter-branch -f --env-filter "GIT_AUTHOR_NAME='Arnav Kohli'; GIT_AUTHOR_EMAIL='arnavkohli@gmail.com'; GIT_COMMITTER_NAME='Arnav Kohli'; GIT_COMMITTER_EMAIL='arnavkohli@gmail.com';"
+
 ## Force push
 git push --force --tags origin HEAD:master
 
