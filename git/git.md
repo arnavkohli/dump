@@ -1,6 +1,5 @@
 ## Git Cheatsheet
 
-
 # Get current branch / Get branch and most recent commit
 git branch / git show-branch 
 
