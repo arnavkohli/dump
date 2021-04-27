@@ -1,5 +1,8 @@
 ## Git Cheatsheet
 
+# Rebase from root
+git rebase -i --root
+
 # Get current branch / Get branch and most recent commit
 git branch / git show-branch 
 
